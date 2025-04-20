@@ -1,0 +1,17 @@
+{
+  "name": "cloudrouter",
+  "version": "1.0.0",
+  "description": "一个用于OpenRouter API密钥管理和请求转发的Cloudflare Workers代理",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "hono": "^3.10.0",
+    "itty-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "wrangler": "^3.15.0"
+  }
+} 
